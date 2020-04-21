@@ -1,4 +1,5 @@
 # rxjs-state
+![rxjs-state logo](https://raw.githubusercontent.com/BioPhoton/rxjs-state/master/projects/rxjs-state/images/rxjs-state_logo.png)
 
 #### Flexible Reactive State Written in RxJS 
 
@@ -8,6 +9,8 @@ Furthermore a global service is provided and can act as a small global state man
 ## Description
 
 A general class to handle state reactively.
+
+Find an implementation into a framework here: (@ngx-rx/state)[https://github.com/BioPhoton/ngx-rx/tree/master/libs/state]
 
 TOC
 
@@ -42,7 +45,6 @@ const subscription = state.subscribe();
 ```
 
 ## API
-![ngx-rx-state logo](https://raw.githubusercontent.com/BioPhoton/ngx-rx/master/libs/ngx-rx-state/images/ngx-rx-state_API-names.png)
 
 The API in a nutshell
 - `$` - The complete state observable

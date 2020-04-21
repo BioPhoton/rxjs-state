@@ -1,4 +1,5 @@
 # rxjs-state
+![rxjs-state logo](https://raw.githubusercontent.com/BioPhoton/rxjs-state/master/projects/rxjs-state/images/rxjs-state_logo.png)
 
 #### Flexible Reactive State Written in RxJS 
 
@@ -44,7 +45,6 @@ const subscription = state.subscribe();
 ```
 
 ## API
-![ngx-rx-state logo](https://raw.githubusercontent.com/BioPhoton/ngx-rx/master/libs/ngx-rx-state/images/ngx-rx-state_API-names.png)
 
 The API in a nutshell
 - `$` - The complete state observable
