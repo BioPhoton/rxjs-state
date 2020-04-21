@@ -9,18 +9,6 @@ Furthermore a global service is provided and can act as a small global state man
 
 A general class to handle state reactively.
 
-**Resources**
-
-Videos:
-
-- [🎥 Tackling Component State Reactively (Live Demo at 24:47)](https://www.youtube.com/watch?v=I8uaHMs8rw0)
-
-Articles:
-
-- [💾 Research on Reactive Ephemeral State](https://dev.to/rxjs/research-on-reactive-ephemeral-state-in-component-oriented-frameworks-38lk)
-
----
-
 TOC
 
 - Install
@@ -247,5 +235,17 @@ state.hold(sideEffect$);
 import { fromEvent } from 'rxjs/observable';
 state.hold(btnClick$, clickEvent => console.log(clickEvent));
 ```
+
+---
+
+**Resources**
+
+Videos:
+
+- [🎥 Tackling Component State Reactively (Live Demo at 24:47)](https://www.youtube.com/watch?v=I8uaHMs8rw0)
+
+Articles:
+
+- [💾 Research on Reactive Ephemeral State](https://dev.to/rxjs/research-on-reactive-ephemeral-state-in-component-oriented-frameworks-38lk)
 
 ---
