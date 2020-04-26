@@ -10,7 +10,7 @@ Furthermore a global service is provided and can act as a small global state man
 
 A general class to handle state reactively.
 
-Find an implementation into a framework here: (@ngx-rx/state)[https://github.com/BioPhoton/ngx-rx/tree/master/libs/state]
+Find an implementation into a framework here: (@rx-angular/state)[https://github.com/BioPhoton/rx-angular/tree/master/libs/state]
 
 TOC
 
