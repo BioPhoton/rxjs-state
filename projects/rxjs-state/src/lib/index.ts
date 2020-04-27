@@ -1,7 +1,9 @@
 export {
   select,
-  stateful,
-  createAccumulationObservable,
-  createSideEffectObservable
-} from './core';
-export { RxJsState } from './state';
+  stateful
+} from './core/operators';
+export {createSideEffectObservable} from './state/side-effect-observable';
+export {createAccumulationObservable} from './state/accumulation-observable';
+export {RxJsState} from './state/state';
+
+

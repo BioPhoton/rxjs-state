@@ -4,13 +4,13 @@
 #### Flexible Reactive State Written in RxJS 
 
 RxJsState is a light-weight reactive state management service especially useful for component state in Angular.
-Furthermore a global service is provided and can act as a small global state manager.
+Furthermore, a global service is provided and can act as a small global state manager.
 
 ## Description
 
-A general class to handle state reactively.
+A flexible and lighe-weight lib to manage ephemeral state in component oriented frameworks.
 
-Find an implementation into a framework here: (@rx-angular/state)[https://github.com/BioPhoton/rx-angular/tree/master/libs/state]
+Find an implementation for Angular: (@rx-angular/state)[https://github.com/BioPhoton/rx-angular/tree/master/libs/state]
 
 TOC
 

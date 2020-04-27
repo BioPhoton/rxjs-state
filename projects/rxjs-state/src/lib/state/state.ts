@@ -6,17 +6,24 @@ import {
   Unsubscribable
 } from 'rxjs';
 import { filter, map, pluck, tap } from 'rxjs/operators';
+
 import {
-  createAccumulationObservable,
-  createSideEffectObservable,
   isObservableGuard,
   isOperateFnArrayGuard,
   isStringArrayGuard,
-  pipeFromArray,
-  stateful,
-  WrongSelectParamsError
-} from '../core';
-import { isKeyOf } from '../core/utils/typing';
+  isKeyOf
+} from '../core/utils/typing';
+import {
+  WrongSelectParamsError,
+} from '../core/utils/wrong-select-params-error';
+import {
+  pipeFromArray
+} from '../core/utils/pipe-from-array';import {
+  stateful
+} from '../core/operators/stateful';
+
+import {createAccumulationObservable} from "./accumulation-observable";
+import {createSideEffectObservable} from "./side-effect-observable";
 
 type ProjectStateFn<T> = (oldState: T) => Partial<T>;
 type ProjectValueFn<T, K extends keyof T> = (oldState: T) => T[K];

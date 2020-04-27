@@ -67,4 +67,5 @@ export function createAccumulationObservable<T extends object>(
   function subscribe(): Subscription {
     return (compositionObservable.state$ as ConnectableObservable<T>).connect();
   }
+
 }

@@ -60,6 +60,43 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "bundled": {
+              "optimization": true,
+              "extractCss": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ],
+              "tsConfig": "tsconfig.app.bundle.json"
+            },
+            "npm": {
+              "optimization": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ],
+              "tsConfig": "tsconfig.app.npm.json"
             }
           }
         },
@@ -71,6 +108,12 @@
           "configurations": {
             "production": {
               "browserTarget": "rxjs-state-demo:build:production"
+            },
+            "bundled": {
+              "browserTarget": "rxjs-state-demo:build:bundled"
+            },
+            "npm": {
+              "browserTarget": "rxjs-state-demo:build:npm"
             }
           }
         },

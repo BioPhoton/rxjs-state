@@ -8,9 +8,9 @@ Furthermore, a global service is provided and can act as a small global state ma
 
 ## Description
 
-A general class to handle state reactively.
+A flexible and lighe-weight lib to manage ephemeral state in component oriented frameworks.
 
-Find an implementation into a framework here: (@ngx-rx/state)[https://github.com/BioPhoton/ngx-rx/tree/master/libs/state]
+Find an implementation for Angular: (@rx-angular/state)[https://github.com/BioPhoton/rx-angular/tree/master/libs/state]
 
 TOC
 

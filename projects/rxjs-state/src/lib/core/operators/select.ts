@@ -1,10 +1,9 @@
 import {
   MonoTypeOperatorFunction,
   Observable,
-  of,
   OperatorFunction
 } from 'rxjs';
-import { map, pluck } from 'rxjs/operators';
+import { pluck } from 'rxjs/operators';
 import {
   WrongSelectParamsError,
   isOperateFnArrayGuard,
